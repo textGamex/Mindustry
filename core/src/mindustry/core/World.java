@@ -31,7 +31,7 @@ public class World{
     public final Context context = new Context();
 
     public Tiles tiles = new Tiles(0, 0);
-    /** The number of times tiles have changed in this session. Used for blocks that need to poll world state, but not frequently. */
+    /** 此会话中瓷砖更改的次数。用于需要轮询世界状态但不频繁的块. */
     public int tileChanges = -1;
 
     private boolean generating, invalidMap;
@@ -595,7 +595,7 @@ public class World{
         }
     }
 
-    /** World context that applies filters after generation end. */
+    /** 在生成结束后应用过滤器的世界上下文. */
     public class FilterContext extends Context{
         final Map map;
 

@@ -4,6 +4,9 @@ import arc.graphics.*;
 import arc.struct.*;
 import mindustry.type.*;
 
+/**
+ * 游戏内建造所需要的资源
+ */
 public class Items{
     public static Item
     scrap, copper, lead, graphite, coal, titanium, thorium, silicon, plastanium,

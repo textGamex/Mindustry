@@ -205,7 +205,7 @@ public class SoundControl{
         });
     }
 
-    /** Plays a random track.*/
+    /** 播放随机曲目.*/
     public void playRandom(){
         if(isDark()){
             playOnce(darkMusic.random(lastRandomPlayed));

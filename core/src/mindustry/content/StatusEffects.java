@@ -10,6 +10,9 @@ import mindustry.type.*;
 
 import static mindustry.Vars.*;
 
+/**
+ * 实现游戏内BUFF
+ */
 public class StatusEffects{
     public static StatusEffect none, burning, freezing, unmoving, slow, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible;
 
